@@ -1,0 +1,5 @@
+Fuses : http://www.engbedded.com/fusecalc/
+
+$ sudo avrdude -c usbtiny -p t2313 -U lfuse:w:0xff:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
+$ sudo avrdude -c usbtiny -p t2313 -U flash:w:dmx.hex
+
